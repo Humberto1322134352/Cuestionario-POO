@@ -1,0 +1,165 @@
+//CORTES ROJAS HUMBERTO
+package cuestionario.de.clase.poo;
+
+public class Cìrculo {
+    
+    private float radio;
+    private double pi=3.1416;
+   ;
+
+    public float getRadio() {
+        return radio;
+    }
+
+    public void setRadio(float radio) {
+        this.radio = radio;
+    }
+
+    
+    
+    public double getPi() {
+        return pi;
+    }
+
+    public void setPi(double pi) {
+        this.pi = pi;
+    }
+
+    
+    
+    
+    public double P() {
+        double rest = (pi*radio)*(2);
+        return rest;
+    }
+    
+    
+    public double A (){
+        double rest = pi*(radio*radio);
+        return rest;
+    }
+
+    @Override
+    public String toString() {
+        return "Cìculo" + "radio= " + radio + ", pi= " + pi + ", perimetro= " + P() + ", Area= " + A() + "   <3";
+    }
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   
+}
+
+
+//CORTES ROJAS HUMBERTO
+package cuestionario.de.clase.poo;
+
+public class Cuadrado {
+    private double longitud;
+
+    public String getLongitud() {
+        return longitud;
+    }
+
+    public void setLongitud(String longitud) {
+        this.longitud = longitud;
+    }
+    
+    
+    
+    
+    public double perimetro (){
+    double rest = longitud*4;
+    return rest;
+    }
+    
+    
+}
+
+//CORTES ROJAS HUMBERTO
+package cuestionario.de.clase.poo;
+
+
+public class CuestionarioDeClasePOO {
+
+    public static void main(String[] args) {
+       
+        
+        
+        
+    }
+    
+}
+
+//CORTES ROJAS HUMBERTO
+package cuestionario.de.clase.poo;
+
+
+public class Rectàngulo {
+private double altura;
+private double base;
+
+
+    public double getAltura() {
+        return altura;
+    }
+
+    public void setAltura(double altura) {
+        this.altura = altura;
+    }
+
+    public double getBase() {
+        return base;
+    }
+
+    public void setBase(double base) {
+        this.base = base;
+    }
+    
+    public double perimetro (){
+    double result = 2*(base)+ 2*(altura);
+    return result;
+    }
+    
+    public double area (){
+    double result = base*altura;
+    return result;      
+    }
+
+    @Override
+    public String toString() {
+        return "Rect\u00e0ngulo{" + "altura=" + altura + ", base=" + base + 
+                "perimetro= " + perimetro() + "area" + area();
+    }
+
+    
+
+   
+    
+    
+
+
+
+
+
+    
+}
+
+//CORTES ROJAS HUMBERTO
+package cuestionario.de.clase.poo;
+
+public class Tiràngulo {
+    private String base;
+    private String altura;
+    
+}
